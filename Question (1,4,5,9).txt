@@ -1,0 +1,116 @@
+*ASSIGNMENT 3*
+
+(1) What are the various types of operators in dart? Explain with Examples.
+
+The following are the various types of operators in Dart:
+
+1) Arithmetic Operators
+2) Relational Operators
+3) Type Test Operators
+4) Bitwise Operators
+5) Assignment Operators
+6) Logical Operators
+7) Conditional Operator
+8) Cascade Notation Operator
+
+Arithmetic Operators:
+This class of operators contain those operators which are used to perform arithmetic operation on the operands.
+Symbol: + 
+Operator name: Addition	
+Use to add two operands
+
+Relational Operators:
+This class of operators contain those operators which are used to perform relational operation on the operands.
+Symbol:  >
+Operator name: Greater than	
+Check which operand is bigger and give result as boolean expression.
+
+Type Test Operators:
+This class of operators contain those operators which are used to perform comparison on the operands.
+Symbol: is
+Operator name: is	
+Gives boolean value true as output if the object has specific type
+
+Bitwise Operators:
+This class of operators contain those operators which are used to perform bitwise operation on the operands.
+Symbol: &
+Operator name: Bitwise AND	
+Performs bitwise and operation on two operands.
+
+Assignment Operators:
+This class of operators contain those operators which are used to assign value to the operands.
+Symbol: =
+Operator name: Equal to	
+Use to assign values to the expression or variable
+
+Logical Operators:
+This class of operators contain those operators which are used to logically combine two or more conditions of the operands.
+Symbol: &&	
+Operator name: And Operator	
+Use to add two conditions and if both are true than it will return true.
+
+Conditional Operators:
+This class of operators contain those operators which are used to perform comparison on the operands.
+Symbol: condition ? expersion1 : expersion2	
+Operator name: Conditional Operator	
+It is a simple version of if-else statement. If the condition is true than expersion1 is executed else expersion2 is executed.
+
+Cascade Notation Operators:
+This class of operators allows you to perform a sequence of operation on the same element. It allows you to perform multiple methods on the same object.
+Symbol: ..
+Operator name: Cascading Method	
+It is used to perform multiple methods on the same object.
+
+(4) What is a difference between these operators “?? And?”
+
+Symbol: ?	
+Operator name: Conditional Operator	
+It is a simple version of if-else statement. If the condition is true than expersion1 is executed else expersion2 is executed.
+
+Symbol: ??
+Operator name: Conditional Operator	
+If expersion1 is non-null returns its value else returns expression2 value.
+
+(5) What are the data types supported in Dart? Explain with Examples.
+
+Data type: Var
+Keyword: var
+Functions for all other data types
+
+Data type: Number	
+Keywords: int, double, num	
+Numbers in Dart are used to represent numeric literals
+
+Data type: Strings	
+Keyword: String	
+Strings represent a sequence of characters
+
+Data type: Booleans	
+Keyword: bool	
+It represents Boolean values true and false
+
+Data type: Lists	
+Keyword: List	
+It is an ordered group of objects
+
+Data type: Maps	
+Keyword: Map	
+It represents a set of values as key-value pairs
+
+
+(9) Declare 5 legal & 5 illegal variable names.
+
+Legal:
+1) password
+2) password_match
+3) password_1
+4) password1
+5) sahal_1_sultan
+
+Illegal:
+1) 123
+2) _sahal
+3) 27sahal
+4) ,sahal
+5) 10_sahal
+
